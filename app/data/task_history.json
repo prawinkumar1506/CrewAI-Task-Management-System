@@ -1,0 +1,6015 @@
+[
+  {
+    "task_id": "T0022",
+    "user_id": "U0001",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-04T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0023",
+    "user_id": "U0013",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2024-12-15T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0024",
+    "user_id": "U0013",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-14T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0025",
+    "user_id": "U0013",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-02-27T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0026",
+    "user_id": "U0001",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2024-12-24T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0027",
+    "user_id": "U0013",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-06-05T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0028",
+    "user_id": "U0007",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-05-23T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0029",
+    "user_id": "U0017",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-01-29T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0030",
+    "user_id": "U0002",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-02-05T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0031",
+    "user_id": "U0002",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-05-12T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0032",
+    "user_id": "U0009",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-04-13T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0033",
+    "user_id": "U0009",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2024-12-15T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0034",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-06-08T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0035",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2024-12-27T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0036",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-01-12T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0037",
+    "user_id": "U0008",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-02-17T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0038",
+    "user_id": "U0003",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-05-15T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0039",
+    "user_id": "U0014",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-01-10T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0040",
+    "user_id": "U0014",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-01-15T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0041",
+    "user_id": "U0008",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-06-12T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0042",
+    "user_id": "U0003",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-02-05T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0043",
+    "user_id": "U0020",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-01-02T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0044",
+    "user_id": "U0004",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-05-14T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0045",
+    "user_id": "U0015",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2024-12-15T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0046",
+    "user_id": "U0004",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-02-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0047",
+    "user_id": "U0004",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-05-25T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0048",
+    "user_id": "U0004",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-03-01T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0049",
+    "user_id": "U0015",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-02-22T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0050",
+    "user_id": "U0004",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-03-08T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0051",
+    "user_id": "U0011",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-05-22T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0052",
+    "user_id": "U0011",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2024-12-24T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0053",
+    "user_id": "U0016",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-03-19T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0054",
+    "user_id": "U0016",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-03-12T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0055",
+    "user_id": "U0016",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-03-15T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0056",
+    "user_id": "U0016",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-04-02T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0057",
+    "user_id": "U0011",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-04-19T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0058",
+    "user_id": "U0006",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-05-24T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0059",
+    "user_id": "U0012",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-02-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0060",
+    "user_id": "U0006",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-06-04T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0061",
+    "user_id": "U0019",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2024-12-31T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0062",
+    "user_id": "U0006",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-05-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0063",
+    "user_id": "U0012",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-05-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0064",
+    "user_id": "U0019",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-06-05T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0065",
+    "user_id": "U0006",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-04-05T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0066",
+    "user_id": "U0019",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-03-05T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0067",
+    "user_id": "U0010",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-03-19T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0068",
+    "user_id": "U0004",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-05-30T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0069",
+    "user_id": "U0014",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-01-27T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0070",
+    "user_id": "U0014",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-05-15T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0071",
+    "user_id": "U0006",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-01-13T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0072",
+    "user_id": "U0001",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-27T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0073",
+    "user_id": "U0014",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-05-06T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0074",
+    "user_id": "U0018",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-26T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0075",
+    "user_id": "U0011",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-04-29T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0076",
+    "user_id": "U0011",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2024-12-23T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0077",
+    "user_id": "U0020",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-03-01T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0078",
+    "user_id": "U0011",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-01-23T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0079",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-04-27T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0080",
+    "user_id": "U0017",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-05-04T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0081",
+    "user_id": "U0019",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-03-09T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0082",
+    "user_id": "U0005",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-01-31T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0083",
+    "user_id": "U0020",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-03-04T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0084",
+    "user_id": "U0003",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-02-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0085",
+    "user_id": "U0004",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-01-04T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0086",
+    "user_id": "U0011",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2024-12-30T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0087",
+    "user_id": "U0012",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2024-12-25T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0088",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2024-12-25T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0089",
+    "user_id": "U0006",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-04-15T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0090",
+    "user_id": "U0012",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-05-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0091",
+    "user_id": "U0018",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-03-21T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0092",
+    "user_id": "U0019",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2024-12-20T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0093",
+    "user_id": "U0008",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-03-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0094",
+    "user_id": "U0016",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-02-17T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0095",
+    "user_id": "U0014",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-06-06T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0096",
+    "user_id": "U0014",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-02-14T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0097",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-04-17T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0098",
+    "user_id": "U0016",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2024-12-20T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0099",
+    "user_id": "U0010",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-04-24T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0100",
+    "user_id": "U0015",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-03-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0101",
+    "user_id": "U0006",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-05-26T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0102",
+    "user_id": "U0005",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-05-25T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0103",
+    "user_id": "U0013",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-02-22T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0104",
+    "user_id": "U0011",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-01-02T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0105",
+    "user_id": "U0014",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-04-30T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0106",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-04-06T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0107",
+    "user_id": "U0010",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-03-11T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0108",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-02-13T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0109",
+    "user_id": "U0015",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-01-08T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0110",
+    "user_id": "U0013",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-05T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0111",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-04-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0112",
+    "user_id": "U0018",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-19T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0113",
+    "user_id": "U0013",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-07T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0114",
+    "user_id": "U0010",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-01-31T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0115",
+    "user_id": "U0013",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-10T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0116",
+    "user_id": "U0003",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-02-15T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0117",
+    "user_id": "U0016",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-01-18T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0118",
+    "user_id": "U0013",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2024-12-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0119",
+    "user_id": "U0018",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-03T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0120",
+    "user_id": "U0015",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-04-21T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0121",
+    "user_id": "U0015",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-04-26T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0122",
+    "user_id": "U0003",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-05-21T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0123",
+    "user_id": "U0016",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-05-18T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0124",
+    "user_id": "U0012",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-01-12T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0125",
+    "user_id": "U0015",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-01-08T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0126",
+    "user_id": "U0001",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2024-12-20T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0127",
+    "user_id": "U0016",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-04-19T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0128",
+    "user_id": "U0007",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2024-12-25T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0129",
+    "user_id": "U0003",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2024-12-29T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0130",
+    "user_id": "U0006",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-01-21T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0131",
+    "user_id": "U0015",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-03-18T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0132",
+    "user_id": "U0017",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-04-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0133",
+    "user_id": "U0007",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-05-05T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0134",
+    "user_id": "U0012",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-01-10T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0135",
+    "user_id": "U0003",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-01-08T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0136",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-06-01T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0137",
+    "user_id": "U0016",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-01-15T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0138",
+    "user_id": "U0007",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2024-12-20T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0139",
+    "user_id": "U0020",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2024-12-17T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0140",
+    "user_id": "U0014",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-02-25T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0141",
+    "user_id": "U0016",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-03-18T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0142",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2024-12-30T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0143",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-05-04T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0144",
+    "user_id": "U0019",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-06-12T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0145",
+    "user_id": "U0016",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-05-20T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0146",
+    "user_id": "U0011",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2024-12-28T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0147",
+    "user_id": "U0009",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-01-15T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0148",
+    "user_id": "U0018",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-05-31T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0149",
+    "user_id": "U0005",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-05-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0150",
+    "user_id": "U0009",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-02-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0151",
+    "user_id": "U0005",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2024-12-16T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0152",
+    "user_id": "U0006",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-04-05T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0153",
+    "user_id": "U0019",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-01-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0154",
+    "user_id": "U0008",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-04-29T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0155",
+    "user_id": "U0012",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-06-03T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0156",
+    "user_id": "U0019",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-05-02T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0157",
+    "user_id": "U0013",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-07T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0158",
+    "user_id": "U0013",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2024-12-29T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0159",
+    "user_id": "U0007",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-02-21T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0160",
+    "user_id": "U0013",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-21T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0161",
+    "user_id": "U0006",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-01-09T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0162",
+    "user_id": "U0013",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-02-21T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0163",
+    "user_id": "U0003",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-04-30T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0164",
+    "user_id": "U0016",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-04-26T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0165",
+    "user_id": "U0004",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-04-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0166",
+    "user_id": "U0015",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-04-21T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0167",
+    "user_id": "U0010",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-03-15T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0168",
+    "user_id": "U0018",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-01T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0169",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-02-01T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0170",
+    "user_id": "U0019",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-05-26T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0171",
+    "user_id": "U0017",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-03-14T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0172",
+    "user_id": "U0012",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-02-04T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0173",
+    "user_id": "U0020",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-04-20T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0174",
+    "user_id": "U0004",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-03-01T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0175",
+    "user_id": "U0017",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-02-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0176",
+    "user_id": "U0005",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-01-20T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0177",
+    "user_id": "U0004",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-05-24T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0178",
+    "user_id": "U0005",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-03-06T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0179",
+    "user_id": "U0005",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-02-01T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0180",
+    "user_id": "U0007",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-03-26T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0181",
+    "user_id": "U0010",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-06-03T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0182",
+    "user_id": "U0014",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-04-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0183",
+    "user_id": "U0016",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-03-20T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0184",
+    "user_id": "U0018",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-02-13T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0185",
+    "user_id": "U0001",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-03-20T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0186",
+    "user_id": "U0002",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-05-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0187",
+    "user_id": "U0006",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-04-19T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0188",
+    "user_id": "U0013",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2024-12-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0189",
+    "user_id": "U0017",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-02-08T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0190",
+    "user_id": "U0002",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-04-10T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0191",
+    "user_id": "U0008",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-01-14T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0192",
+    "user_id": "U0005",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-03-16T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0193",
+    "user_id": "U0011",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-05-31T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0194",
+    "user_id": "U0015",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-03-04T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0195",
+    "user_id": "U0003",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-05-30T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0196",
+    "user_id": "U0009",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-05-30T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0197",
+    "user_id": "U0019",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-04-20T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0198",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-05-14T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0199",
+    "user_id": "U0019",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-03-24T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0200",
+    "user_id": "U0011",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-02-14T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0201",
+    "user_id": "U0004",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-04-09T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0202",
+    "user_id": "U0017",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-04-27T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0203",
+    "user_id": "U0016",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-04-03T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0204",
+    "user_id": "U0001",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-18T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0205",
+    "user_id": "U0004",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-03-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0206",
+    "user_id": "U0003",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-04-07T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0207",
+    "user_id": "U0020",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-04-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0208",
+    "user_id": "U0011",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-03-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0209",
+    "user_id": "U0008",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-06-11T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0210",
+    "user_id": "U0015",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-03-19T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0211",
+    "user_id": "U0020",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2024-12-27T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0212",
+    "user_id": "U0018",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-02-01T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0213",
+    "user_id": "U0020",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-05-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0214",
+    "user_id": "U0003",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-01-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0215",
+    "user_id": "U0011",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-03-20T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0216",
+    "user_id": "U0019",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-05-07T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0217",
+    "user_id": "U0007",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-03T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0218",
+    "user_id": "U0002",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-02-22T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0219",
+    "user_id": "U0013",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-05-21T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0220",
+    "user_id": "U0016",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2024-12-22T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0221",
+    "user_id": "U0009",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-03-09T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0222",
+    "user_id": "U0007",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-30T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0223",
+    "user_id": "U0014",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-03-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0224",
+    "user_id": "U0018",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-05T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0225",
+    "user_id": "U0020",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-03-18T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0226",
+    "user_id": "U0020",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-06-09T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0227",
+    "user_id": "U0012",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-05-06T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0228",
+    "user_id": "U0011",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-05-11T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0229",
+    "user_id": "U0020",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-05-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0230",
+    "user_id": "U0016",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-03-21T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0231",
+    "user_id": "U0013",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-03T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0232",
+    "user_id": "U0010",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-05-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0233",
+    "user_id": "U0006",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-02-25T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0234",
+    "user_id": "U0010",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-05-07T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0235",
+    "user_id": "U0019",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-04-01T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0236",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-03-25T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0237",
+    "user_id": "U0020",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-05-22T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0238",
+    "user_id": "U0020",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-02-04T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0239",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-01-09T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0240",
+    "user_id": "U0001",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2024-12-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0241",
+    "user_id": "U0014",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-01-09T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0242",
+    "user_id": "U0018",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-03-26T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0243",
+    "user_id": "U0013",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-06-12T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0244",
+    "user_id": "U0007",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-22T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0245",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-01-17T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0246",
+    "user_id": "U0001",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-11T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0247",
+    "user_id": "U0006",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-05-17T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0248",
+    "user_id": "U0019",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-01-17T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0249",
+    "user_id": "U0015",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-02-23T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0250",
+    "user_id": "U0012",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-03-29T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0251",
+    "user_id": "U0003",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2024-12-21T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0252",
+    "user_id": "U0001",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-02-18T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0253",
+    "user_id": "U0009",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2024-12-27T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0254",
+    "user_id": "U0008",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2024-12-19T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0255",
+    "user_id": "U0007",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-03-13T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0256",
+    "user_id": "U0017",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-01-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0257",
+    "user_id": "U0016",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-04-17T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0258",
+    "user_id": "U0007",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-05-15T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0259",
+    "user_id": "U0011",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-05-15T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0260",
+    "user_id": "U0006",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-04-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0261",
+    "user_id": "U0014",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-01-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0262",
+    "user_id": "U0005",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-05-25T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0263",
+    "user_id": "U0012",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-01-29T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0264",
+    "user_id": "U0003",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2024-12-23T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0265",
+    "user_id": "U0018",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-05-04T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0266",
+    "user_id": "U0004",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-02-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0267",
+    "user_id": "U0010",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-05-06T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0268",
+    "user_id": "U0007",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-04-29T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0269",
+    "user_id": "U0010",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-01-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0270",
+    "user_id": "U0005",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-02-27T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0271",
+    "user_id": "U0003",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-03-06T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0272",
+    "user_id": "U0001",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-06-12T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0273",
+    "user_id": "U0016",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-01-27T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0274",
+    "user_id": "U0011",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-03-11T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0275",
+    "user_id": "U0003",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-06-04T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0276",
+    "user_id": "U0011",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-01-04T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0277",
+    "user_id": "U0011",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-01-12T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0278",
+    "user_id": "U0020",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-04-09T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0279",
+    "user_id": "U0004",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-02-09T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0280",
+    "user_id": "U0013",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-06-05T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0281",
+    "user_id": "U0019",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-04-11T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0282",
+    "user_id": "U0016",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-03-01T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0283",
+    "user_id": "U0006",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2024-12-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0284",
+    "user_id": "U0008",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-03-26T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0285",
+    "user_id": "U0004",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-04-05T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0286",
+    "user_id": "U0016",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2024-12-30T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0287",
+    "user_id": "U0002",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-05-24T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0288",
+    "user_id": "U0004",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-03-22T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0289",
+    "user_id": "U0009",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2024-12-30T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0290",
+    "user_id": "U0017",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-05-31T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0291",
+    "user_id": "U0001",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-05-23T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0292",
+    "user_id": "U0010",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-04-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0293",
+    "user_id": "U0020",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-03-17T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0294",
+    "user_id": "U0012",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2024-12-25T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0295",
+    "user_id": "U0018",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-03-15T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0296",
+    "user_id": "U0001",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2024-12-21T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0297",
+    "user_id": "U0005",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-03-12T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0298",
+    "user_id": "U0015",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-05-19T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0299",
+    "user_id": "U0018",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-06T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0300",
+    "user_id": "U0006",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-01-01T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0301",
+    "user_id": "U0007",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-05-25T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0302",
+    "user_id": "U0011",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-03-27T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0303",
+    "user_id": "U0019",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-05-08T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0304",
+    "user_id": "U0006",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-06-12T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0305",
+    "user_id": "U0013",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-06-08T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0306",
+    "user_id": "U0006",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-01-22T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0307",
+    "user_id": "U0002",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2024-12-29T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0308",
+    "user_id": "U0007",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-06-03T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0309",
+    "user_id": "U0012",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2024-12-30T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0310",
+    "user_id": "U0014",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-03-22T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0311",
+    "user_id": "U0020",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2024-12-22T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0312",
+    "user_id": "U0007",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-02-20T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0313",
+    "user_id": "U0002",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-05-24T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0314",
+    "user_id": "U0015",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2024-12-28T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0315",
+    "user_id": "U0020",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-06-09T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0316",
+    "user_id": "U0019",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-05-18T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0317",
+    "user_id": "U0016",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-02-13T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0318",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-03-25T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0319",
+    "user_id": "U0011",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-05-29T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0320",
+    "user_id": "U0013",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-08T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0321",
+    "user_id": "U0013",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-05-15T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0322",
+    "user_id": "U0008",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2024-12-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0323",
+    "user_id": "U0020",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-02-19T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0324",
+    "user_id": "U0007",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-02-10T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0325",
+    "user_id": "U0004",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2024-12-31T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0326",
+    "user_id": "U0012",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-04-04T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0327",
+    "user_id": "U0006",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-03-11T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0328",
+    "user_id": "U0014",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-04-12T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0329",
+    "user_id": "U0019",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-04-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0330",
+    "user_id": "U0003",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-01-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0331",
+    "user_id": "U0010",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2024-12-22T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0332",
+    "user_id": "U0007",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-10T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0333",
+    "user_id": "U0019",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-04-20T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0334",
+    "user_id": "U0014",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-05-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0335",
+    "user_id": "U0012",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-04-20T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0336",
+    "user_id": "U0011",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2024-12-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0337",
+    "user_id": "U0015",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2024-12-21T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0338",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-01-27T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0339",
+    "user_id": "U0019",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-05-24T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0340",
+    "user_id": "U0002",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-02-05T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0341",
+    "user_id": "U0019",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2024-12-25T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0342",
+    "user_id": "U0012",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-05-21T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0343",
+    "user_id": "U0006",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-04-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0344",
+    "user_id": "U0017",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-02-03T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0345",
+    "user_id": "U0020",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-05-14T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0346",
+    "user_id": "U0012",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-01-30T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0347",
+    "user_id": "U0006",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-04-22T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0348",
+    "user_id": "U0018",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-06T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0349",
+    "user_id": "U0015",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-02-01T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0350",
+    "user_id": "U0013",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-03-04T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0351",
+    "user_id": "U0007",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2024-12-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0352",
+    "user_id": "U0017",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-01-07T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0353",
+    "user_id": "U0019",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-02-17T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0354",
+    "user_id": "U0006",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-04-04T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0355",
+    "user_id": "U0012",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-01-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0356",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-01-30T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0357",
+    "user_id": "U0005",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-04-14T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0358",
+    "user_id": "U0016",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-06-08T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0359",
+    "user_id": "U0020",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-05-07T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0360",
+    "user_id": "U0001",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-26T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0361",
+    "user_id": "U0014",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-02-26T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0362",
+    "user_id": "U0018",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-19T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0363",
+    "user_id": "U0018",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-05-26T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0364",
+    "user_id": "U0011",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-01-08T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0365",
+    "user_id": "U0013",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-05-30T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0366",
+    "user_id": "U0007",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-04-19T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0367",
+    "user_id": "U0009",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-03-31T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0368",
+    "user_id": "U0010",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-04-04T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0369",
+    "user_id": "U0016",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-02-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0370",
+    "user_id": "U0020",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-01-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0371",
+    "user_id": "U0015",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2024-12-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0372",
+    "user_id": "U0012",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-05-10T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0373",
+    "user_id": "U0012",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-02-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0374",
+    "user_id": "U0007",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-09T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0375",
+    "user_id": "U0013",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-14T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0376",
+    "user_id": "U0018",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-05-27T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0377",
+    "user_id": "U0013",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2024-12-26T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0378",
+    "user_id": "U0015",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-06-01T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0379",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-02-21T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0380",
+    "user_id": "U0016",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-03-10T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0381",
+    "user_id": "U0018",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-05-26T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0382",
+    "user_id": "U0006",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2024-12-31T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0383",
+    "user_id": "U0001",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0384",
+    "user_id": "U0018",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-07T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0385",
+    "user_id": "U0018",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-03-30T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0386",
+    "user_id": "U0006",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-02-13T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0387",
+    "user_id": "U0008",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-03-05T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0388",
+    "user_id": "U0010",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-03-09T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0389",
+    "user_id": "U0003",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-04-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0390",
+    "user_id": "U0017",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-05-29T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0391",
+    "user_id": "U0017",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-02-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0392",
+    "user_id": "U0014",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2024-12-15T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0393",
+    "user_id": "U0019",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-06-05T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0394",
+    "user_id": "U0004",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-03-05T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0395",
+    "user_id": "U0012",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-03-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0396",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-05-09T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0397",
+    "user_id": "U0001",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-03-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0398",
+    "user_id": "U0017",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-02-23T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0399",
+    "user_id": "U0014",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2024-12-21T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0400",
+    "user_id": "U0018",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-05-06T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0401",
+    "user_id": "U0008",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-02-03T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0402",
+    "user_id": "U0008",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-01-24T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0403",
+    "user_id": "U0004",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-01-27T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0404",
+    "user_id": "U0019",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-05-01T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0405",
+    "user_id": "U0009",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-05-11T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0406",
+    "user_id": "U0015",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-02-22T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0407",
+    "user_id": "U0011",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-01-01T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0408",
+    "user_id": "U0008",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-01-26T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0409",
+    "user_id": "U0013",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-22T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0410",
+    "user_id": "U0001",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-02-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0411",
+    "user_id": "U0003",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-01-11T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0412",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-06-11T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0413",
+    "user_id": "U0020",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2024-12-31T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0414",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2024-12-29T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0415",
+    "user_id": "U0019",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-03-06T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0416",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-04-03T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0417",
+    "user_id": "U0016",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-05-08T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0418",
+    "user_id": "U0005",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-02-10T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0419",
+    "user_id": "U0008",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-05-05T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0420",
+    "user_id": "U0008",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-04-01T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0421",
+    "user_id": "U0010",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-06-08T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0422",
+    "user_id": "U0001",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-03-22T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0423",
+    "user_id": "U0013",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-03-22T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0424",
+    "user_id": "U0019",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-01-17T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0425",
+    "user_id": "U0001",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0426",
+    "user_id": "U0016",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-03-12T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0427",
+    "user_id": "U0016",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-03-15T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0428",
+    "user_id": "U0001",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-05-18T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0429",
+    "user_id": "U0010",
+    "name": "Data Pipeline (data)",
+    "required_skills": {
+      "python": 8,
+      "pytorch": 7
+    },
+    "completed_at": "2025-01-02T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0430",
+    "user_id": "U0016",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-02-05T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0431",
+    "user_id": "U0009",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-02-22T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0432",
+    "user_id": "U0010",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-03-11T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0433",
+    "user_id": "U0018",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2024-12-15T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0434",
+    "user_id": "U0006",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-02-05T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0435",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-01-16T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0436",
+    "user_id": "U0009",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-02-15T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0437",
+    "user_id": "U0020",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-01-05T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0438",
+    "user_id": "U0001",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-03-07T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0439",
+    "user_id": "U0014",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-04-30T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0440",
+    "user_id": "U0019",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2024-12-27T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0441",
+    "user_id": "U0003",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-06-01T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0442",
+    "user_id": "U0012",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-05-22T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0443",
+    "user_id": "U0011",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-05-24T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0444",
+    "user_id": "U0009",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-04-18T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0445",
+    "user_id": "U0005",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2024-12-20T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0446",
+    "user_id": "U0015",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-02-03T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0447",
+    "user_id": "U0011",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-01-08T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0448",
+    "user_id": "U0007",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-05-29T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0449",
+    "user_id": "U0005",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2024-12-28T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0450",
+    "user_id": "U0010",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-05-20T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0451",
+    "user_id": "U0008",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-05-19T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0452",
+    "user_id": "U0007",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-02-01T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0453",
+    "user_id": "U0019",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2024-12-18T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0454",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-01-21T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0455",
+    "user_id": "U0012",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-02-27T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0456",
+    "user_id": "U0011",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-03-26T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0457",
+    "user_id": "U0008",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-04-03T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0458",
+    "user_id": "U0020",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-03-10T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0459",
+    "user_id": "U0016",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-01-18T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0460",
+    "user_id": "U0010",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-01-14T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0461",
+    "user_id": "U0009",
+    "name": "API Gateway Implementation (backend)",
+    "required_skills": {
+      "python": 9,
+      "nodejs": 8
+    },
+    "completed_at": "2025-02-15T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0462",
+    "user_id": "U0019",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-02-09T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0463",
+    "user_id": "U0011",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-01-10T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0464",
+    "user_id": "U0014",
+    "name": "Cloud Migration (devops)",
+    "required_skills": {
+      "aws": 7,
+      "docker": 9
+    },
+    "completed_at": "2025-06-08T09:45:55.426306",
+    "outcome": "partial_success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0465",
+    "user_id": "U0012",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-01-29T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0466",
+    "user_id": "U0011",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-01-11T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0467",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-02-03T09:45:55.426306",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0468",
+    "user_id": "U0016",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-02-09T09:45:55.441974",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0469",
+    "user_id": "U0013",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-03-10T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0470",
+    "user_id": "U0017",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-03-29T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0471",
+    "user_id": "U0019",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-02-28T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0472",
+    "user_id": "U0010",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-05-18T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0473",
+    "user_id": "U0016",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2024-12-18T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0474",
+    "user_id": "U0018",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-12T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0475",
+    "user_id": "U0001",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-27T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0476",
+    "user_id": "U0008",
+    "name": "K8s Cluster Setup (devops)",
+    "required_skills": {
+      "kubernetes": 8,
+      "docker": 9
+    },
+    "completed_at": "2024-12-25T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0477",
+    "user_id": "U0018",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-05-03T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0478",
+    "user_id": "U0006",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-01-23T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0479",
+    "user_id": "U0010",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-01-19T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0480",
+    "user_id": "U0007",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-03-28T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0481",
+    "user_id": "U0010",
+    "name": "ML Model Training (data)",
+    "required_skills": {
+      "python": 8,
+      "machine_learning": 9
+    },
+    "completed_at": "2025-04-22T09:45:55.441974",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0482",
+    "user_id": "U0006",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-04-02T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0483",
+    "user_id": "U0005",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2024-12-15T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0484",
+    "user_id": "U0016",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-05-19T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0485",
+    "user_id": "U0015",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-06-10T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0486",
+    "user_id": "U0012",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-04-30T09:45:55.441974",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0487",
+    "user_id": "U0006",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2024-12-24T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0488",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2024-12-19T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0489",
+    "user_id": "U0012",
+    "name": "E2E Test Suite (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "postman": 6
+    },
+    "completed_at": "2025-04-23T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0490",
+    "user_id": "U0007",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-07T09:45:55.441974",
+    "outcome": "partial_success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0491",
+    "user_id": "U0001",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-03-03T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0492",
+    "user_id": "U0013",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-13T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0493",
+    "user_id": "U0009",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-01-05T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0494",
+    "user_id": "U0005",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-04-07T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0495",
+    "user_id": "U0013",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-10T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0496",
+    "user_id": "U0011",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-02-05T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0497",
+    "user_id": "U0007",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-03-06T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0498",
+    "user_id": "U0008",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-04-11T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0499",
+    "user_id": "U0018",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-01-23T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0500",
+    "user_id": "U0017",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-03-03T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0501",
+    "user_id": "U0018",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-13T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0502",
+    "user_id": "U0011",
+    "name": "Cross-platform UI (mobile)",
+    "required_skills": {
+      "flutter": 6,
+      "swift": 8
+    },
+    "completed_at": "2025-05-15T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0503",
+    "user_id": "U0019",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-04-03T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0504",
+    "user_id": "U0005",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-05-21T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0505",
+    "user_id": "U0011",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-03-28T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0506",
+    "user_id": "U0018",
+    "name": "React Component Migration (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-02-06T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0507",
+    "user_id": "U0013",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-26T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0508",
+    "user_id": "U0016",
+    "name": "iOS Offline Mode (mobile)",
+    "required_skills": {
+      "swift": 8,
+      "kotlin": 7
+    },
+    "completed_at": "2025-03-26T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0509",
+    "user_id": "U0016",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-03-20T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "low"
+  },
+  {
+    "task_id": "T0510",
+    "user_id": "U0001",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-11T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0511",
+    "user_id": "U0020",
+    "name": "Microservices Refactor (backend)",
+    "required_skills": {
+      "nodejs": 8,
+      "docker": 9
+    },
+    "completed_at": "2025-03-01T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0512",
+    "user_id": "U0015",
+    "name": "Feature Engineering (data)",
+    "required_skills": {
+      "machine_learning": 9,
+      "python": 8
+    },
+    "completed_at": "2025-05-15T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0513",
+    "user_id": "U0016",
+    "name": "Android Memory Optimization (mobile)",
+    "required_skills": {
+      "kotlin": 7,
+      "flutter": 6
+    },
+    "completed_at": "2025-04-23T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0514",
+    "user_id": "U0001",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-06T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0515",
+    "user_id": "U0006",
+    "name": "Load Testing Framework (qa)",
+    "required_skills": {
+      "cypress": 7,
+      "postman": 6
+    },
+    "completed_at": "2025-04-05T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0516",
+    "user_id": "U0019",
+    "name": "Security Audit (qa)",
+    "required_skills": {
+      "selenium": 8,
+      "cypress": 7
+    },
+    "completed_at": "2025-04-06T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0517",
+    "user_id": "U0017",
+    "name": "Database Sharding (backend)",
+    "required_skills": {
+      "mongodb": 7,
+      "python": 9
+    },
+    "completed_at": "2025-01-22T09:45:55.441974",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0518",
+    "user_id": "U0007",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2025-02-06T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0519",
+    "user_id": "U0007",
+    "name": "Performance Optimization (frontend)",
+    "required_skills": {
+      "react": 8,
+      "javascript": 9
+    },
+    "completed_at": "2024-12-28T09:45:55.441974",
+    "outcome": "partial_success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0520",
+    "user_id": "U0014",
+    "name": "CI/CD Pipeline (devops)",
+    "required_skills": {
+      "docker": 9,
+      "aws": 7
+    },
+    "completed_at": "2025-05-08T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "high"
+  },
+  {
+    "task_id": "T0521",
+    "user_id": "U0013",
+    "name": "TypeScript Conversion (frontend)",
+    "required_skills": {
+      "typescript": 7,
+      "javascript": 9
+    },
+    "completed_at": "2025-04-13T09:45:55.441974",
+    "outcome": "success",
+    "complexity": "medium"
+  },
+  {
+    "task_id": "T0007",
+    "name": "Dashboard Redesign",
+    "user_id": "U0001",
+    "required_skills": {
+      "javascript": 9,
+      "react": 8,
+      "typescript": 7
+    },
+    "outcome": "success",
+    "completed_at": "2025-06-13T15:30:41.768958",
+    "duration": 0
+  }
+]

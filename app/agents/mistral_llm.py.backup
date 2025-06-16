@@ -1,0 +1,91 @@
+import os
+from llama_cpp import Llama
+
+# Get the absolute path to avoid any path resolution issues
+# Navigate up to project root first, then to models folder
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(os.path.dirname(script_dir))  # Go up 2 levels: agents -> app -> project_root
+model_path = os.path.join(project_root, "models", "mistral-7b-instruct-v0.1.Q4_K_M.gguf")
+print(f"Looking for model at: {model_path}")
+print(f"File exists: {os.path.exists(model_path)}")
+
+# Check file size to ensure it's not corrupted
+if os.path.exists(model_path):
+    file_size = os.path.getsize(model_path)
+    print(f"File size: {file_size / (1024**3):.2f} GB")
+    if file_size < 4000000000:  # Less than 4GB suggests corruption
+        print("⚠️  WARNING: File size seems too small, might be corrupted!")
+
+# Initialize with very conservative settings
+try:
+    print("Initializing Llama model with conservative settings...")
+    llm = Llama(
+        model_path=model_path,
+        n_ctx=512,              # Small context window (default is often 2048+)
+        n_batch=128,            # Small batch size (default is often 512)
+        n_threads=2,            # Limit CPU threads
+        n_gpu_layers=0,         # Force CPU-only
+        use_mlock=False,        # Don't lock memory pages
+        use_mmap=True,          # Use memory mapping (more efficient)
+        verbose=False,          # Reduce verbosity initially
+        seed=-1,                # Random seed
+        f16_kv=True,            # Use 16-bit for key-value cache
+        logits_all=False,       # Don't compute logits for all tokens
+        vocab_only=False,       # Don't load vocab only
+        embedding=False,        # Not using for embeddings
+    )
+    print("✅ Model loaded successfully!")
+except Exception as e:
+    print(f"❌ Failed to load model: {e}")
+    print(f"Error type: {type(e).__name__}")
+
+    # Try with even more conservative settings
+    print("\nTrying with ultra-conservative settings...")
+    try:
+        llm = Llama(
+            model_path=model_path,
+            n_ctx=256,          # Very small context
+            n_batch=64,         # Very small batch
+            n_threads=1,        # Single thread
+            n_gpu_layers=0,     # CPU only
+            use_mlock=False,
+            use_mmap=True,
+            verbose=True,       # Enable verbose to see what's happening
+        )
+        print("✅ Model loaded with ultra-conservative settings!")
+    except Exception as e2:
+        print(f"❌ Still failed with ultra-conservative settings: {e2}")
+        print("\n=== Troubleshooting Steps ===")
+        print("1. Check available RAM (need ~6GB free)")
+        print("2. Close other applications")
+        print("3. Try restarting your computer")
+        print("4. Consider downloading a smaller model (Q2_K)")
+        print("5. Verify model file integrity")
+
+        # Re-raise the exception to stop execution
+        raise e2
+
+def query_mistral_llm(prompt, max_tokens=100):
+    """Query the Mistral LLM with a prompt"""
+    try:
+        response = llm(
+            prompt,
+            max_tokens=max_tokens,
+            stop=["</s>", "\n\n"],  # Stop tokens
+            echo=False,             # Don't echo the prompt
+            temperature=0.7,        # Moderate creativity
+            top_p=0.9,             # Nucleus sampling
+            top_k=40,              # Top-k sampling
+        )
+
+        return response['choices'][0]['text'].strip()
+    except Exception as e:
+        print(f"Error querying model: {e}")
+        return f"Error: {str(e)}"
+
+# Test the model if this script is run directly
+if __name__ == "__main__":
+    test_prompt = "Hello, how are you?"
+    print(f"\nTesting with prompt: '{test_prompt}'")
+    response = query_mistral_llm(test_prompt, max_tokens=50)
+    print(f"Response: {response}")

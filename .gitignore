@@ -1,0 +1,14 @@
+# Python venv & caches
+venv/
+__pycache__/
+*.pyc
+
+# Large model files
+*.bin
+*.pyd
+*.dll
+*.lib
+
+# OS junk
+.DS_Store
+Thumbs.db
