@@ -378,7 +378,12 @@ def task_assignment_tool(task_id: str, user_id: str) -> str:
 #             "success": False,
 #             "error": f"Assignment failed: {str(e)}"
 #         })
+import os
 
+from dotenv import load_dotenv
+
+# Load environment variables from .env
+load_dotenv()
 class TaskCrew:
     def __init__(self):
         self.llm = self._configure_llm()
@@ -395,7 +400,7 @@ class TaskCrew:
         try:
             return LLM(
                 model="gemini/gemini-1.5-flash",
-                api_key="AIzaSyDREOvD_AgBvzs9SyvTJyV77ruHswMT74s",
+                api_key=os.getenv("GEMINI_API_KEY"),
                 temperature=0.3  # Increase from 0.1
 
             )
