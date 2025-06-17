@@ -184,6 +184,543 @@ def system_status_tool(query: str = "") -> str:
         })
     except Exception as e:
         return json.dumps({"error": f"Failed to get system status: {str(e)}"})
+@tool
+def show_user_ongoing_tasks_tool(user_query: str) -> str:
+    """shows user's ongoing tasks"""
+    # Extract user_id (e.g., U0019) from the query
+    user_id_match = re.search(r'U\d{4}', user_query)
+    if not user_id_match:
+        return json.dumps({"error": "No valid user ID found in query"})
+    user_id = user_id_match.group()
+    tasks = SampleUserTask.objects(user_id=user_id, status='in_progress')
+    if not tasks:
+        return json.dumps({"message": f"No ongoing tasks for {user_id}"})
+    tasks_data = [{
+        "task_id": t.task_id,
+        "name": t.name,
+        "priority": t.priority,
+        "due_date": t.due_date.strftime("%Y-%m-%d") if t.due_date else "N/A",
+        "progress": f"{t.progress}%",
+        "required_skills": t.required_skills
+    } for t in tasks]
+    return json.dumps({
+        "action": "show_user_ongoing_tasks",
+        "user_id": user_id,
+        "tasks": tasks_data,
+        "total_count": len(tasks_data)
+    })
+@tool
+def assign_all_pending_tasks_tool(query: str = "") -> str:
+    """assigns all pending tasks correctly"""
+    cli = TaskCLI()
+    cli._supervise()
+    return json.dumps({"action": "assign_all_pending_tasks", "result": "Supervise function executed"})
+@tool
+def show_overdue_tasks_tool(query: str = "") -> str:
+    """shows all overdue tasks to reassign"""
+    now = datetime.now()
+    overdue_tasks = SampleUserTask.objects(due_date__lt=now, status__nin=['completed', 'blocked'])
+    tasks_data = [{
+        "task_id": t.task_id,
+        "name": t.name,
+        "assigned_to": t.user_id or "Unassigned",
+        "due_date": t.due_date.strftime("%Y-%m-%d") if t.due_date else "N/A",
+        "status": t.status
+    } for t in overdue_tasks]
+    return json.dumps({
+        "action": "show_overdue_tasks",
+        "tasks": tasks_data,
+        "total_count": len(tasks_data)
+    })
+@tool
+def show_user_workload_tool(user_query: str) -> str:
+    """shows workload of particular user"""
+    user_id_match = re.search(r'U\d{4}', user_query)
+    if not user_id_match:
+        return json.dumps({"error": "No valid user ID found in query"})
+    user_id = user_id_match.group()
+    user = SampleUser.objects(user_id=user_id).first()
+    if not user:
+        return json.dumps({"error": f"User {user_id} not found"})
+    return json.dumps({
+        "action": "show_user_workload",
+        "user_id": user_id,
+        "username": user.username,
+        "current_ongoing": user.current_ongoing_tasks,
+        "max_tasks": user.max_concurrent_tasks,
+        "availability": user.availability_status
+    })
+@tool
+def find_users_with_skills(skills_query: str) -> str:
+    """
+    Find users who have all the specified skills.
+    Input: Comma-separated skill names (e.g., "python, ml").
+    Returns a JSON object with matching users and their skills.
+    Use when the user says: "Find users skilled in Python and ML".
+    """
+    from app.models.sample_data import SampleUser
+    import json
+
+    skills = [s.strip().lower() for s in skills_query.split(",")]
+    users = SampleUser.objects()
+    matching_users = []
+    for user in users:
+        if all(skill in [k.lower() for k in user.skills.keys()] for skill in skills):
+            matching_users.append({
+                "user_id": user.user_id,
+                "username": user.username,
+                "skills": user.skills
+            })
+    return json.dumps({
+        "action": "find_users_with_skills",
+        "skills": skills,
+        "users": matching_users,
+        "total_found": len(matching_users)
+    })
+@tool
+def mark_overdue_tasks_failed(query: str = "") -> str:
+    """
+    Mark all overdue, incomplete tasks as failed.
+    Returns a JSON object with the list of updated task IDs and a count.
+    Use when the user says: "Mark all overdue tasks as failed" or similar.
+    """
+    from datetime import datetime
+    from app.models.sample_data import SampleUserTask
+    import json
+
+    now = datetime.now()
+    overdue_tasks = SampleUserTask.objects(
+        due_date__lt=now,
+        status__nin=['completed', 'failed', 'blocked']
+    )
+    updated = []
+    for task in overdue_tasks:
+        task.status = 'failed'
+        task.save()
+        updated.append(task.task_id)
+    return json.dumps({
+        "action": "mark_overdue_failed",
+        "updated_tasks": updated,
+        "total_failed": len(updated)
+    })
+
+@tool
+def mark_overdue_tasks_failed(query: str = "") -> str:
+    """
+    Mark all overdue, incomplete tasks as failed.
+    Returns a JSON object with the list of updated task IDs and a count.
+    Use when the user says: "Mark all overdue tasks as failed" or similar.
+    """
+    from datetime import datetime
+    from app.models.sample_data import SampleUserTask
+    import json
+
+    now = datetime.now()
+    overdue_tasks = SampleUserTask.objects(
+        due_date__lt=now,
+        status__nin=['completed', 'failed', 'blocked']
+    )
+    updated = []
+    for task in overdue_tasks:
+        task.status = 'failed'
+        task.save()
+        updated.append(task.task_id)
+    return json.dumps({
+        "action": "mark_overdue_failed",
+        "updated_tasks": updated,
+        "total_failed": len(updated)
+    })
+
+@tool
+def find_users_with_skills(skills_query: str) -> str:
+    """
+    Find users who have all the specified skills.
+    Input: Comma-separated skill names (e.g., "python, ml").
+    Returns a JSON object with matching users and their skills.
+    Use when the user says: "Find users skilled in Python and ML".
+    """
+    from app.models.sample_data import SampleUser
+    import json
+
+    skills = [s.strip().lower() for s in skills_query.split(",")]
+    users = SampleUser.objects()
+    matching_users = []
+    for user in users:
+        if all(skill in [k.lower() for k in user.skills.keys()] for skill in skills):
+            matching_users.append({
+                "user_id": user.user_id,
+                "username": user.username,
+                "skills": user.skills
+            })
+    return json.dumps({
+        "action": "find_users_with_skills",
+        "skills": skills,
+        "users": matching_users,
+        "total_found": len(matching_users)
+    })
+
+@tool
+def show_task_assignment_log(task_query: str) -> str:
+    """
+    Show the assignment log for a specific task.
+    Input: Task ID (e.g., "T0014").
+    Returns a JSON object with the assignment log.
+    """
+    task_id = task_query.strip()
+    task = SampleUserTask.objects(task_id=task_id).first()
+    if not task:
+        return json.dumps({"error": f"Task {task_id} not found"})
+
+    # Convert all datetime objects in the assignment log to ISO strings
+    def serialize_log_entry(entry):
+        return {
+            k: (v.isoformat() if hasattr(v, "isoformat") else v)
+            for k, v in entry.items()
+        }
+
+    assignment_log = [
+        serialize_log_entry(entry) for entry in task.assignment_log
+    ]
+
+    return json.dumps({
+        "action": "show_task_assignment_log",
+        "task_id": task_id,
+        "assignment_log": assignment_log
+    })
+
+
+@tool
+def available_users_for_new_task(query: str = "") -> str:
+    """
+    Return users who can take a new task right now.
+    Returns a JSON object with user IDs, usernames, and workload.
+    Use when the user says: "Who can take a new task right now?".
+    """
+    from app.models.sample_data import SampleUser
+    import json
+
+    users = SampleUser.objects(availability_status='available')
+    available = []
+    for user in users:
+        if user.current_ongoing_tasks < user.max_concurrent_tasks:
+            available.append({
+                "user_id": user.user_id,
+                "username": user.username,
+                "current_ongoing": user.current_ongoing_tasks,
+                "max_tasks": user.max_concurrent_tasks
+            })
+    return json.dumps({
+        "action": "available_users_for_new_task",
+        "users": available,
+        "total_available": len(available)
+    })
+
+@tool
+def show_task_history_for_user(user_query: str) -> str:
+    """
+    Show all tasks (any status) assigned to a user.
+    Input: User ID (e.g., "U0005").
+    Returns a JSON object with the user's task history.
+    Use when the user says: "Show task history for U0005".
+    """
+    from app.models.sample_data import SampleUserTask
+    import json
+
+    user_id = user_query.strip()
+    tasks = SampleUserTask.objects(user_id=user_id)
+    task_list = [{
+        "task_id": t.task_id,
+        "name": t.name,
+        "status": t.status,
+        "due_date": t.due_date.strftime("%Y-%m-%d") if t.due_date else "N/A"
+    } for t in tasks]
+    return json.dumps({
+        "action": "show_task_history_for_user",
+        "user_id": user_id,
+        "tasks": task_list,
+        "total_tasks": len(task_list)
+    })
+
+@tool
+def export_completed_tasks_this_month(query: str = "") -> str:
+    """
+    Export all tasks completed this calendar month.
+    Returns a JSON object with completed tasks and their completion dates.
+    Use when the user says: "Export all completed tasks this month".
+    """
+    from datetime import datetime
+    from app.models.sample_data import SampleUserTask
+    import json
+
+    now = datetime.now()
+    start_of_month = now.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+    completed_tasks = SampleUserTask.objects(
+        status='completed',
+        completed_at__gte=start_of_month,
+        completed_at__lte=now
+    )
+    report = [{
+        "task_id": t.task_id,
+        "name": t.name,
+        "user_id": t.user_id,
+        "completed_at": t.completed_at.strftime("%Y-%m-%d %H:%M") if t.completed_at else "N/A"
+    } for t in completed_tasks]
+    return json.dumps({
+        "action": "export_completed_tasks_this_month",
+        "tasks": report,
+        "total_completed": len(report)
+    })
+
+@tool
+def list_user_attributes(query: str = "") -> str:
+    """
+    List all column attributes (fields) available for a user.
+    Use when the user asks: "What fields does a user have?" or "Show all user attributes."
+    """
+    columns = [
+        "user_id", "username", "skills", "max_concurrent_tasks",
+        "current_ongoing_tasks", "availability_status", "experience_level"
+    ]
+    return json.dumps({
+        "action": "list_user_attributes",
+        "columns": columns,
+        "total_columns": len(columns)
+    })
+
+@tool
+def list_task_attributes(query: str = "") -> str:
+    """
+    List all column attributes (fields) available for a task.
+    Use when the user asks: "What fields does a task have?" or "Show all task attributes."
+    """
+    columns = [
+        "task_id", "user_id", "name", "status", "required_skills", "priority",
+        "due_date", "task_type", "estimated_effort_hours", "actual_effort_hours",
+        "created_at", "started_at", "completed_at", "reassigned_count",
+        "assignment_log", "progress"
+    ]
+    return json.dumps({
+        "action": "list_task_attributes",
+        "columns": columns,
+        "total_columns": len(columns)
+    })
+@tool
+def edit_user_tool(edit_query: str) -> str:
+    """
+    Edit a specific user. Input: JSON string with user_id and optionally 'field' and 'new_value'.
+    If 'field' is not provided, list all editable fields and ask which to edit.
+    If 'new_value' is not provided, ask for the new value.
+    Confirm changes before saving.
+    Use when the user says: "Edit user U0019" or "Change username of U0019 to Alice".
+    """
+    # Example fix inside edit_user_tool
+    import json
+
+    outer = json.loads(edit_query)
+    if isinstance(outer, str):
+        data = json.loads(outer)
+    else:
+        data = outer
+
+    user_id = data.get("user_id") or data.get("entity_id")
+
+    field = data.get("field")
+    new_value = data.get("new_value")
+
+    user = SampleUser.objects(user_id=user_id).first()
+    if not user:
+        return json.dumps({"error": f"User {user_id} not found"})
+
+
+    editable_fields = ["username", "skills","availability_status", "max_concurrent_tasks", "availability_status", "experience_level"]
+
+    if not field:
+        return json.dumps({
+            "action": "edit_user_prompt_field",
+            "message": f"Editable fields: {editable_fields}. Which field would you like to edit?"
+        })
+
+    if field not in editable_fields:
+        return json.dumps({
+            "error": f"Field '{field}' is not editable. Editable fields: {editable_fields}"
+        })
+
+    if not new_value:
+        return json.dumps({
+            "action": "edit_user_prompt_value",
+            "field": field,
+            "current_value": getattr(user, field, None),
+            "message": f"Current value: {getattr(user, field, None)}. What is the new value for '{field}'?"
+        })
+
+    # Confirmation step
+    return json.dumps({
+        "action": "edit_user_confirm",
+        "user_id": user_id,
+        "field": field,
+        "old_value": getattr(user, field, None),
+        "new_value": new_value,
+        "message": f"Change '{field}' from '{getattr(user, field, None)}' to '{new_value}'? Please confirm (yes/no)."
+    })
+@tool
+def confirm_edit_user_tool(confirm_query: str) -> str:
+    """
+    Confirm and apply the user edit after user confirmation.
+    Input: JSON string with user_id, field, new_value, and confirmation ("yes"/"no").
+    """
+    import json
+    from app.models.sample_data import SampleUser
+
+    data = json.loads(confirm_query)
+    user_id = data.get("user_id")
+    field = data.get("field")
+    new_value = data.get("new_value")
+    confirmation = data.get("confirmation", "").lower()
+
+    if confirmation not in ["yes", "y"]:
+        return json.dumps({"action": "edit_user_cancelled", "message": "Edit cancelled."})
+
+    user = SampleUser.objects(user_id=user_id).first()
+    if not user:
+        return json.dumps({"error": f"User {user_id} not found"})
+
+    setattr(user, field, new_value if field != "skills" else json.loads(new_value))
+    user.save()
+    return json.dumps({
+        "action": "edit_user_success",
+        "user_id": user_id,
+        "field": field,
+        "new_value": new_value,
+        "message": f"User {user_id} updated: {field} set to '{new_value}'."
+    })
+@tool
+def edit_task_tool(edit_query: str) -> str:
+    """
+    Edit a specific task. Input: JSON string with task_id and optionally 'field' and 'new_value'.
+    If 'field' is not provided, list all editable fields and ask which to edit.
+    If 'new_value' is not provided, ask for the new value.
+    Confirm changes before saving.
+    Use when the user says: "Edit task T0012" or "Change priority of T0012 to high".
+    """
+    import json
+    from app.models.sample_data import SampleUserTask
+
+    data = json.loads(edit_query)
+    task_id = data.get("task_id")
+    field = data.get("field")
+    new_value = data.get("new_value")
+
+    task = SampleUserTask.objects(task_id=task_id).first()
+    if not task:
+        return json.dumps({"error": f"Task {task_id} not found"})
+
+    editable_fields = [
+        "name", "status", "priority", "due_date", "required_skills",
+        "user_id", "task_type", "estimated_effort_hours", "progress"
+    ]
+
+    if not field:
+        return json.dumps({
+            "action": "edit_task_prompt_field",
+            "message": f"Editable fields: {editable_fields}. Which field would you like to edit?"
+        })
+
+    if field not in editable_fields:
+        return json.dumps({
+            "error": f"Field '{field}' is not editable. Editable fields: {editable_fields}"
+        })
+
+    if not new_value:
+        return json.dumps({
+            "action": "edit_task_prompt_value",
+            "field": field,
+            "current_value": getattr(task, field, None),
+            "message": f"Current value: {getattr(task, field, None)}. What is the new value for '{field}'?"
+        })
+
+    # Confirmation step
+    return json.dumps({
+        "action": "edit_task_confirm",
+        "task_id": task_id,
+        "field": field,
+        "old_value": getattr(task, field, None),
+        "new_value": new_value,
+        "message": f"Change '{field}' from '{getattr(task, field, None)}' to '{new_value}'? Please confirm (yes/no)."
+    })
+@tool
+def confirm_edit_task_tool(confirm_query: str) -> str:
+    """
+    Confirm and apply the task edit after user confirmation.
+    Input: JSON string with task_id, field, new_value, and confirmation ("yes"/"no").
+    """
+    import json
+    from app.models.sample_data import SampleUserTask
+
+    data = json.loads(confirm_query)
+    task_id = data.get("task_id")
+    field = data.get("field")
+    new_value = data.get("new_value")
+    confirmation = data.get("confirmation", "").lower()
+
+    if confirmation not in ["yes", "y"]:
+        return json.dumps({"action": "edit_task_cancelled", "message": "Edit cancelled."})
+
+    task = SampleUserTask.objects(task_id=task_id).first()
+    if not task:
+        return json.dumps({"error": f"Task {task_id} not found"})
+
+    setattr(task, field, new_value if field != "required_skills" else json.loads(new_value))
+    task.save()
+    return json.dumps({
+        "action": "edit_task_success",
+        "task_id": task_id,
+        "field": field,
+        "new_value": new_value,
+        "message": f"Task {task_id} updated: {field} set to '{new_value}'."
+    })
+@tool
+def edit_entity_tool(edit_query: str) -> str:
+    """
+    Edit any attribute of a user or task.
+    Input: JSON string with:
+        - 'entity_type': 'user' or 'task'
+        - 'entity_id': user_id or task_id
+        - 'field': field name (dot notation for nested, e.g., 'skills.docker')
+        - 'new_value': new value (int, float, str, or JSON for dict/list)
+    Example: {"entity_type": "user", "entity_id": "U0008", "field": "skills.docker", "new_value": 8}
+    Returns JSON with success or error message.
+    """
+
+    import json
+    from app.models.sample_data import SampleUser, SampleUserTask
+
+    # Parse input robustly
+    try:
+        data = json.loads(edit_query)
+        if isinstance(data, str):
+            data = json.loads(data)
+
+        entity_type = data.get("entity_type")
+        entity_id = data.get("entity_id") or data.get("user_id") or data.get("task_id")
+        field = data.get("field")
+        new_value = data.get("new_value")
+
+        if entity_type == "user":
+            obj = SampleUser.objects(user_id=entity_id).first()
+        elif entity_type == "task":
+            obj = SampleUserTask.objects(task_id=entity_id).first()
+        else:
+            return json.dumps({"error": "Unknown entity_type"})
+
+        if not obj:
+            return json.dumps({"error": f"{entity_type.title()} {entity_id} not found"})
+
+        # ... rest of the logic ...
+    except Exception as e:
+        return json.dumps({"error": f"Edit failed: {str(e)}"})
+
+
+
 
 class ConversationalTaskOrchestrator:
     def __init__(self):
@@ -213,7 +750,26 @@ class ConversationalTaskOrchestrator:
                 assign_task_tool,
                 get_user_info_tool,
                 get_task_info_tool,
-                system_status_tool
+                system_status_tool,
+                show_user_ongoing_tasks_tool,
+                assign_all_pending_tasks_tool,
+                show_overdue_tasks_tool,
+                show_user_workload_tool,
+                find_users_with_skills,
+                mark_overdue_tasks_failed,
+                show_task_assignment_log,
+                available_users_for_new_task,
+                show_task_history_for_user,
+                export_completed_tasks_this_month,
+                list_user_attributes,
+                list_task_attributes,
+                edit_entity_tool,
+                edit_user_tool,
+                confirm_edit_user_tool,
+                edit_task_tool,
+                confirm_edit_task_tool
+
+
             ],
             llm=self.llm,
             verbose=True,
