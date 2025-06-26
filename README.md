@@ -52,8 +52,8 @@ Task Assignment Agent   Reassignment Agent   Load Manager Agent
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ai-task-manager.git
-cd ai-task-manager
+git clone https://github.com/your-username/CrewAI-Task-Management-System.git
+cd CrewAI-Task-Management-System
 ```
 
 ### 2. Install Dependencies
@@ -75,7 +75,7 @@ Ensure your MS SQL Server is running and the schema matches `db/schema.sql`.
 ### 4. Run the Application
 
 ```bash
-python run.py
+python app\agents\llm_orchestrator.py
 ```
 
 ---
