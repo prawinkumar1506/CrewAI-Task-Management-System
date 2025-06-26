@@ -136,7 +136,7 @@ Each agent is independently callable and interacts with the central LLM.
 Feel free to fork, enhance, or contribute to the project!
 
 ```bash
-git clone https://github.com/your-username/ai-task-manager.git
+git clone https://github.com/your-username/CrewAI-Task-Management-System.git
 ```
 
 > Made with ❤️ by AI and Human Orchestration
